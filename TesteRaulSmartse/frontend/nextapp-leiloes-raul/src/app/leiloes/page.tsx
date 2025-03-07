@@ -69,6 +69,8 @@ function Leiloes() {
             icon: "warning",
             confirmButtonText: "Entendido",
             confirmButtonColor: "var(--cor5)",
+          }).then(() => {
+            router.push("/leiloes");
           });
         }
 
