@@ -197,7 +197,7 @@ function iniciarEncerramentoAutomático(produto) {
     produto.pro_status = "encerrado";
     produto.pro_tempo = 0;
     io.emit("atualizar_produto", produto);
-  }, 12000); //2 min
+  }, 120000); //2 min
 }
 
 //Inicia contagem regressiva para todos os pro com status 'aberto'
